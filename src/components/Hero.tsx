@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <header className="h-screen w-full relative overflow-x-hidden" id="hero">
         <img src={HeroImage} className="w-full h-full object-cover" />
-        <div className="absolute top-0 left-0 w-full h-full bg-black/50 flex items-end lg:pl-10 pb-28 lg:pb-48">
+        <div className="absolute top-0 left-0 w-full h-full bg-black/50 flex items-end lg:pl-10 pb-40 lg:pb-48">
             <div className="text-white lg:w-2/3">
                 <h1 className="text-white text-2xl lg:text-6xl uppercase font-bold px-5">Your journey to confident trading starts here</h1>
                 <p className="text-slate-300 mt-5 mb-10 md:text-base px-5">Start your journey to confident trading with us. Join Quantum Trading Community today and unlock your potential with expert support, comprehensive resources and a vibrant network of traders. Your success starts here</p>
